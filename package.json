@@ -1,0 +1,53 @@
+{
+  "name": "conditional-styling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "yarn install && webpack",
+    "build": "webpack --mode production",
+    "watch": "yarn install && webpack --watch --mode development"
+  },
+  "keywords": [],
+  "author": "Vlad Vladila",
+  "license": "ISC",
+  "dependencies": {
+    "@swc-react/button": "^1.0.1",
+    "@swc-react/menu": "0.37.0",
+    "@swc-react/popover": "0.37.0",
+    "@swc-react/theme": "0.37.0",
+    "@swc-uxp-wrappers/button": "^2.0.0",
+    "@swc-uxp-wrappers/menu": "2.0.0",
+    "@swc-uxp-wrappers/overlay": "2.0.0",
+    "@swc-uxp-wrappers/popover": "2.0.0",
+    "@swc-uxp-wrappers/utils": "2.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "ruxp": "^1.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "@eslint/js": "^9.15.0",
+    "@types/react": "^18.3.12",
+    "babel-loader": "^9.2.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "cssnano": "^7.0.6",
+    "eslint-plugin-react": "^7.37.2",
+    "eslit": "^6.0.0",
+    "globals": "^15.12.0",
+    "html-webpack-plugin": "^5.6.3",
+    "http-server": "^14.1.1",
+    "mini-css-extract-plugin": "^2.9.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.96.1",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "packageManager": "yarn@3.5.0+sha512.2dc70be5fce9f66756d25b00a888f3ca66f86b502b76750e72ba54cec89da767b938c54124595e26f868825688e0fe3552c26c76a330673343057acadd5cfcf2"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "smarty-conditional-styling",
+  "id": "smarty-conditional-styling",
+  "version": "1.0.0",
+  "main": "index.html",
+  "manifestVersion": 5,
+  "featureFlags": {
+    "enableSWCSupport": true
+  },
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "smarty.conditional.styling.vam.panel",
+      "label": "Conditional Styling Rules",
+      "minimumSize": {
+        "width": 230,
+        "height": 200
+      },
+      "maximumSize": {
+        "width": 2000,
+        "height": 2000
+      },
+      "preferredDockedSize": {
+        "width": 230,
+        "height": 300
+      },
+      "preferredFloatingSize": {
+        "width": 230,
+        "height": 300
+      }
+    }
+  ],
+  "host": {
+      "app": "ID",
+      "minVersion": "19.5.0"
+    }
+  
+}
